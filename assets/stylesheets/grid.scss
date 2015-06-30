@@ -7,7 +7,6 @@
   	margin-left: auto;
   	margin-right: auto;
   	clear: both;
-  	// height: 50px;
   	width: 75%;
 }
 
@@ -15,14 +14,15 @@
 	display: inline-block;
 	clear: both;
 	width: 100%;
-	// margin-right: 15px;
-	// margin-left: px;
 }
 
 .col-lg-12 { 
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
 }
 
 .col-lg-6 {
@@ -31,6 +31,8 @@
 	width: columns(6);
 	margin-left: gutter(6);
 	margin-right: gutter(6);
+	margin-top: 10px;
+	margin-bottom: 10px;
 
 }
 
@@ -40,20 +42,48 @@
 	width: columns(4);
 	margin-left: gutter(4);
 	margin-right: gutter(4);
+	margin-top: 10px;
+	margin-bottom: 10px;
 
 }
 
 .col-lg-3 {
 	float: left;
 	display: inline-block;
-
 	width: columns(3);
 	margin-left: gutter(3);
 	margin-right: gutter(3);
+	margin-top: 10px;
+	margin-bottom: 10px;
+
 }
 
+.col-sm-8 {
+	display: inline-block;
+	float: left;
+	width: columns(8);
+	margin-left: gutter(8);
+	margin-right: gutter(8);
+	margin-top: 10px;
+	margin-bottom: 10px;
 
-// @media (min-width: 992px)
-// .col-md-4 {
-//   width: 33.33333333%;
-// }
+}
+
+.col-sm-4 {
+	display: inline-block;
+	float: left;
+	width: columns(4);
+	margin-left: gutter(4);
+	margin-right: gutter(4);
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.left-most {
+	margin-left: 0;
+}
+
+.right-most {
+	margin-right: 0;
+}

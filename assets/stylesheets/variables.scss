@@ -22,8 +22,12 @@ $padding-top: 50px;
 }
 
 @function gutter($columns: $maximum-columns, $gutter: $gutter-width) {
-	// $container-width: $columns * $column-width + $columns * $gutter-width;
-	// $container-width: $columns / $maximum-columns;
-	// @return percentage($gutter / $container-width);
-	@return columns($columns) / 12;
+	//gives the number of columns
+    $numCols: $maximum-columns/$columns;
+    //gives the number of gutters (inner margins) we want
+    $numGutters: ($numCols - 1);
+    //calculates the total percentage available for gutters
+    $untakenPercentage: 1 - ($numCols * ($columns / ($maximum-columns + 2))) ;
+    //returns the percentage for each gutter
+    @return percentage(($untakenPercentage/$numGutters)/2);
 }
