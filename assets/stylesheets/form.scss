@@ -18,7 +18,7 @@ form {
 
   textarea {
   	display: block;
-  	width: 95.3%;
+  	width: 100%;
   	font-size: 14px;
   	line-height: 1.42857143;
   	color: #555;
@@ -38,11 +38,6 @@ form {
 
   button {
   	display: block;
-  }
-
-  .col-lg-12 {
-  	margin-left: gutter(4);
-  	margin-right: gutter(4);
   }
 
 }
