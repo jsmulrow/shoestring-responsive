@@ -1,0 +1,47 @@
+.container {
+	display: center;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+}
+
+.row {
+	display: inline-block;
+	clear: both;
+	width: 100%;
+	// margin-right: 15px;
+	// margin-left: px;
+}
+
+.col-lg-12 { 
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col-lg-6 {
+	// float: left;
+	display: inline-block;
+	width: columns(6);
+	margin-left: gutter(6);
+	margin-right: gutter(6);
+
+}
+
+.col-lg-4 {
+	display: inline-block;
+	// float: right;
+	width: columns(4);
+	margin-left: gutter(4);
+	margin-right: gutter(4);
+}
+
+.col-lg-3 {
+	// float: left;
+	display: inline-block;
+
+	width: columns(3);
+	margin-left: gutter(3);
+	margin-right: gutter(3);
+}
+
