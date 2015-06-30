@@ -25,5 +25,5 @@ $padding-top: 50px;
 	// $container-width: $columns * $column-width + $columns * $gutter-width;
 	// $container-width: $columns / $maximum-columns;
 	// @return percentage($gutter / $container-width);
-	@return columns($columns) / 20;
+	@return columns($columns) / 12;
 }

@@ -1,8 +1,14 @@
+* {
+	box-sizing: border-box
+}
+
 .container {
 	display: center;
-  margin-left: auto;
-  margin-right: auto;
-  clear: both;
+  	margin-left: auto;
+  	margin-right: auto;
+  	clear: both;
+  	// height: 50px;
+  	width: 75%;
 }
 
 .row {
@@ -20,7 +26,7 @@
 }
 
 .col-lg-6 {
-	// float: left;
+	float: left;
 	display: inline-block;
 	width: columns(6);
 	margin-left: gutter(6);
@@ -30,14 +36,15 @@
 
 .col-lg-4 {
 	display: inline-block;
-	// float: right;
+	float: left;
 	width: columns(4);
 	margin-left: gutter(4);
 	margin-right: gutter(4);
+
 }
 
 .col-lg-3 {
-	// float: left;
+	float: left;
 	display: inline-block;
 
 	width: columns(3);
@@ -45,3 +52,8 @@
 	margin-right: gutter(3);
 }
 
+
+// @media (min-width: 992px)
+// .col-md-4 {
+//   width: 33.33333333%;
+// }
